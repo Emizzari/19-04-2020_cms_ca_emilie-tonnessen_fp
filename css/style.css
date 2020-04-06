@@ -1,0 +1,59 @@
+/* STYLE GUIDE */
+/* Colour Palette: 
+
+
+
+
+------------------------------------------ */
+
+
+
+
+
+
+/* Font  
+------------------------------------------ */
+
+
+
+/* --------------------------------------- */
+
+
+
+
+
+
+
+
+/* NAVIGATION: --------------------------- */
+
+/* End of Navigation: -------------------- */
+
+
+
+/* HEADER: ------------------------------- */
+.headline{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+/* End of header: ------------------------ */
+
+
+
+/* PRODUCTS: ----------------------------- */
+.products-container{
+    display: grid;
+    grid-gap: 1em;
+}
+
+.single-product{
+    background-color: lightgrey;
+    
+}
+/* End of Products: ---------------------- */
+
+
+
+/* FOOTER: ------------------------------- */
+
+/* End of Footer: ------------------------ */
