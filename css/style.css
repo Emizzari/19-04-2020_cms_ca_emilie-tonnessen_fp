@@ -56,8 +56,10 @@ a{
 /* HEADER: ------------------------------- */
 .headline{
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
 }
+
 /* End of header: ------------------------ */
 
 
