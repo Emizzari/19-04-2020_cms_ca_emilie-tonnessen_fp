@@ -112,19 +112,23 @@ a:hover{
 
 .single-product{
     margin: 25px;
+    text-align: center;
 }
 
 .image{
     width: 100%;
     border-radius: 5px;
 }
+
+.price{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.details:active{
+    border: 1px solid #394f4c;
+}
 /* End of Products: ---------------------- */
-
-
-
-
-
-
 
 
 
