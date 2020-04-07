@@ -35,13 +35,27 @@ a{
     text-decoration: none;
 }
 
-.link{
-    border-bottom: 1px solid #000000;
+a:hover{
+    cursor: pointer;
+}
+/* End of Global Styles ------------------ */
+
+
+
+/* BUTTON: ------------------------------- */
+.btn{
+    background-color: #394f4c;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border: 1px solid #394f4c;
 }
 
-.link:hover{
-    border-bottom: 0px solid #000000;
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #394f4c;
+    cursor: pointer;
 }
+/* End of Button ------------------------- */
 
 
 
