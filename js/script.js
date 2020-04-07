@@ -26,8 +26,9 @@ function createProducts(json) {
 
         newHTML += `
                     <div class="single-product">
-                        <img class="image" src="${result.images.src}" alt="${result.name}">
+                        <img class="image" src="${result.images[0].src}" alt="${result.name}">
                         <div class="details">
+                        
                             <h4 class="name">${result.name}</h4>
                             <h5 class="price">${result.prices.price} ${result.prices.currency_code}</h5>   
                             <button class="btn">View More</button>                      
