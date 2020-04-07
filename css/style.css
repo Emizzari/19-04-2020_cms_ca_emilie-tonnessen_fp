@@ -147,4 +147,12 @@ a:hover{
 .copyright {
     color: grey;
 }
+
+.link{
+    border-bottom: 1px solid #000000;
+}
+
+.link:hover{
+    border-bottom: 0px solid #000000;
+}
 /* End of Footer: ------------------------ */
