@@ -60,7 +60,27 @@ a:hover{
 
 
 /* NAVIGATION: --------------------------- */
+.navigation{
+    border-bottom: 1px solid #f0f0f0;
+    padding: 40px 0px 30px 0px;
+}
 
+.main-nav{
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+#logo{
+    max-width: 220px;
+}
+
+.breadcrumb{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
 /* End of Navigation: -------------------- */
 
 
