@@ -26,13 +26,16 @@ function createProducts(json) {
 
         newHTML += `
                     <div class="single-product">
-                        <img class="image" src="${result.images[0].src}" alt="${result.name}">
-                        <div class="details">
-                        
-                            <h4 class="name">${result.name}</h4>
-                            <h5 class="price">${result.prices.price} ${result.prices.currency_code}</h5>   
-                            <button class="btn">View More</button>                      
-                        </div>
+                        <a href="${result.permalink}">
+                            <div class="details">
+                                <img class="image" src="${result.images[0].src}" alt="${result.name}">
+                                <h4 class="name">${result.name}</h4>
+                                <h5 class="price">${result.prices.price} ${result.prices.currency_code}</h5>                        
+                            </div>
+                        </a>
+                        <a href="${result.permalink}">
+                            <button class="btn">View More</button>
+                        </a>
                     </div>
                 `;
     });
