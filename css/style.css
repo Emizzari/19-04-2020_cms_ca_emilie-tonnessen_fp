@@ -102,5 +102,18 @@ a{
 
 
 /* FOOTER: ------------------------------- */
+.footer{
+    background-color: #f0f0f0;
+}
 
+.footer-info{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 950px;
+    padding: 50px 0px 100px 0px;
+}
+
+.copyright {
+    color: grey;
+}
 /* End of Footer: ------------------------ */
