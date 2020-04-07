@@ -30,7 +30,7 @@ function createProducts(json) {
                             <div class="details">
                                 <img class="image" src="${result.images[0].src}" alt="${result.name}">
                                 <h4 class="name">${result.name}</h4>
-                                <h5 class="price">${result.prices.price} ${result.prices.currency_code}</h5>                        
+                                <h5 class="price">${result.prices.price_prefix} ${result.prices.price}</h5>                        
                             </div>
                         </a>
                         <a href="${result.permalink}">
