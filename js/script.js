@@ -1,5 +1,8 @@
-const productsAPI = "http://localhost/flower-power/wp-json/wc/store/products";
+// API url
+const productsAPI = "https://www.tonnessen.com/wp-json/wc/store/products";
 
+
+// Fetch API
 fetch(productsAPI)
     .then(function (response) {
         return response.json();
@@ -13,7 +16,8 @@ fetch(productsAPI)
         console.log(error);
     });
 
-// Creating the function that will handle the API
+
+// API Function
 function createProducts(json) {
     console.dir(json);
 
@@ -21,7 +25,7 @@ function createProducts(json) {
 
     let newHTML = "";
 
-    // Adding the new HTML code with the propper values:
+    // Looping through the products with forEach
     json.forEach(function (result) {
 
         newHTML += `
