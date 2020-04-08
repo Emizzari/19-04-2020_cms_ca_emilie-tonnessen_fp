@@ -1,0 +1,37 @@
+/* COLOUR PALETTE: 
+Light grey     -      #f0f0f0;
+Grey           -      #757575;
+Light pink     -      #e0aab9;
+White          -      #FFFFFF;
+Dark Green     -      #394f4c;
+
+BUTTONS: 
+Background color      #394f4c;
+Text color            #FFFFFF;
+------------------------------------------ */
+
+
+/* FOOTER: ------------------------------- */
+.footer{
+    background-color: #f0f0f0;
+}
+
+.footer-info{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 950px;
+    padding: 50px 0px 100px 0px;
+}
+
+.copyright {
+    color: #757575;
+}
+
+.link{
+    border-bottom: 1px solid #000000;
+}
+
+.link:hover{
+    border-bottom: 0px solid #000000;
+}
+/* End of Footer: ------------------------ */
