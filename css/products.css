@@ -1,0 +1,41 @@
+/* COLOUR PALETTE: 
+Light grey     -      #f0f0f0;
+Grey           -      #757575;
+Light pink     -      #e0aab9;
+White          -      #FFFFFF;
+Dark Green     -      #394f4c;
+
+BUTTONS: 
+Background color      #394f4c;
+Text color            #FFFFFF;
+------------------------------------------ */
+
+
+
+/* PRODUCTS: ----------------------------- */
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.single-product{
+    margin: 25px;
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.details:active{
+    border: 1px solid #394f4c;
+}
