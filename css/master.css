@@ -112,6 +112,19 @@ a:hover{
 
 
 
+/* Links */
+.link__thin-grey{
+    font-weight: 300;
+    font-size: 13px;
+    color: #757575;
+}
 
+.link__soft-black{
+    font-size: 13px;
+    color: #000000;
+}
 
+.link__no-border{
+    border-bottom: 0px;
+}
 
