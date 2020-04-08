@@ -1,0 +1,63 @@
+/* COLOUR PALETTE: 
+Light grey     -      #f0f0f0;
+Grey           -      #757575;
+Light pink     -      #e0aab9;
+White          -      #FFFFFF;
+Dark Green     -      #394f4c;
+
+BUTTONS: 
+Background color      #394f4c;
+Text color            #FFFFFF;
+------------------------------------------ */
+
+
+
+
+/* NAVIGATION: --------------------------- */
+.navigation{
+    border-bottom: 1px solid #f0f0f0;
+    padding: 40px 0px 30px 0px;
+}
+
+.main-nav{
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+#logo{
+    max-width: 220px;
+}
+
+.breadcrumb{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+/* End of Navigation: -------------------- */
+
+
+
+/* BREADCRUMB: --------------------------- */
+.breadcrumb{
+    font-weight: 300;
+    font-size: 13px;
+    color: #757575;
+}
+
+.link__home{
+    border-bottom: 1px solid #757575;
+    font-weight: 300;
+    font-size: 13px;
+    color: #757575;
+}
+
+.link__home:hover{
+    border-bottom: 0px;
+}
+
+.fa-home{
+    color: #757575;
+}
+/* End of Breadcrumb --------------------- */
